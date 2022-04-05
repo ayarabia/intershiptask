@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter } from "react-router-dom";
+import {ThroughProvider} from 'react-through'
 ReactDOM.render(
+  <BrowserRouter>
   <React.StrictMode>
+  <ThroughProvider>
     <App />
-  </React.StrictMode>,
+  </ThroughProvider>
+  </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

@@ -1,0 +1,19 @@
+.parant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 70px);
+}
+@media (max-width: 767px){
+    .parant{
+        height: 100%;
+    }
+    }
+
+.image{
+    width:150px;
+    height: 150px;
+}
+
+

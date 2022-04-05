@@ -1,0 +1,88 @@
+.productes{
+    height: calc(100vh - 60px);
+
+   
+}
+@media (max-width: 767px){
+  .productes{
+      height: 100%;
+  }
+  }
+.basicInfo{
+    color:#0089c0;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+.warehouse form{
+   
+    display: grid;
+grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.warehouse label{
+    color: #0089c0;
+}
+.warehouse label sup{
+    color: red;
+}
+.warehouse select{
+    width: 350px;
+    border: none;
+    background-color: #ddd;
+}
+.radioButton{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+  
+}
+.product label{
+    color: #0089c0;
+}
+.product select{
+    width: 100%;
+}
+.search {
+    display: flex;
+    justify-content: end;
+}
+.search button{
+    background-color: rgb(65, 240, 202);
+    color: #fff;
+    border: none;
+    padding:5px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* table{
+    width: 100%;
+}
+table thead{
+    background-color: #afd7e7;
+}
+table td input{
+    width: 100%;
+} */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+.gridheader{
+    background-color: #afd7e7; 
+    padding: 5px; 
+    margin-top: 10px;
+}
+
+.grid input{
+width: 90%;
+border: 2px solid #ddd;
+}
