@@ -36,8 +36,8 @@ function Header() {
         </div>
         <Container>
           <FontAwesomeIcon icon={faHome} color="#fff" />
-          {/* <span className="rout">Home&gt;{location.pathname.substring(1)}</span> */}
-          <span className="rout">Home{location.pathname.replace('/','>')}</span>
+          <span className="rout">Home&gt;{location.pathname.substring(15)}</span>
+          {/* <span className="rout">Home{location.pathname.replace('/','>')}</span> */}
         </Container>
         <div className="menu" style={menu}>
           <div>
